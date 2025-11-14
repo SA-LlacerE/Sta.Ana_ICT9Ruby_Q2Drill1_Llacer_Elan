@@ -1,0 +1,26 @@
+body {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.item-box {
+  background-color: #fb3e3e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.25);
+  transition: 0.3s ease;
+}
+
+.item-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(255, 0, 0, 0.5);
+}
+
+h1, h4 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
